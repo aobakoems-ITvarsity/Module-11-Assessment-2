@@ -1,0 +1,72 @@
+.carousel-caption{
+  background-color: #6345058a;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.team .col-lg-4 {
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section-divider{
+  margin: 3rem 0;
+}
+
+.footer-section{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #6b4c088a;
+}
+
+@media (min-width: 1200px) {
+  .feature-heading {
+      margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .carouselImg {
+      display: none;
+  }
+  
+  .team {
+      margin-top: 2rem;
+  }
+}
+
+ /*==================================contact page =============================================*/
+
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #6b4c08;
+  color: rgb(26, 22, 22);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #96b3a3;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #6b4c088a;
+  padding: 20px;
+}
